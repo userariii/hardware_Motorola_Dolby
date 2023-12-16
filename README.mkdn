@@ -1,0 +1,28 @@
+Motorola Dolby Atmos
+====================
+
+Getting Started
+---------------
+Clone the repository :-
+
+```bash
+git clone https://github.com/userariii/hardware_motorolaDolby.git hardware/motorolaDolby
+```
+
+Patches required on device tree side :-
+
+```bash
+dummy txt
+```
+
+To support the Dolby media codecs, include this line on your device tree :-
+
+```bash
+<Include href="media_codecs_dolby_audio.xml" />
+```
+
+To build, inherit the dolby config by adding this in your device's makefile :-
+
+```bash
+$(call inherit-product, hardware/motorolaDolby/dolby-setup.mk)
+```
