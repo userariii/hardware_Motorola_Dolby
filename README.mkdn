@@ -3,7 +3,7 @@ Motorola Dolby Atmos
 
 Getting Started
 ---------------
-Clone the repository :-
+Clone the repository, followed by req. branch :-
 
 ```bash
 git clone https://github.com/userariii/hardware_motorolaDolby.git hardware/motorolaDolby
@@ -12,7 +12,7 @@ git clone https://github.com/userariii/hardware_motorolaDolby.git hardware/motor
 Patches required on device tree side :-
 
 ```bash
-dummy txt
+https://github.com/PixelExperience-Devices/device_nokia_sdm660-common/commit/71f4263651dbd56b5a2685fa01925986b652b4d6
 ```
 
 To support the Dolby media codecs, include this line on your device tree :-
