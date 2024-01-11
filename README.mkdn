@@ -6,7 +6,7 @@ Getting Started
 Clone the repository, followed by req. branch :-
 
 ```bash
-git clone https://github.com/userariii/hardware_motorolaDolby.git hardware/motorolaDolby
+git clone -b v1.1 https://github.com/userariii/hardware_Motorola_Dolby.git hardware/Motorola/Dolby
 ```
 
 Patches required on device tree side :-
@@ -24,5 +24,5 @@ To support the Dolby media codecs, include this line on your device tree :-
 To build, inherit the dolby config by adding this in your device's makefile :-
 
 ```bash
-$(call inherit-product, hardware/motorolaDolby/dolby-setup.mk)
+$(call inherit-product, hardware/Motorola/Dolby/dolby-setup.mk)
 ```
