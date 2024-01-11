@@ -32,9 +32,6 @@ TARGET_EXCLUDES_AUDIOFX := true
 # SEPolicy
 BOARD_VENDOR_SEPOLICY_DIRS += hardware/motorolaDolby/sepolicy/vendor
 
-# HIDL
-DEVICE_MANIFEST_FILE += hardware/motorolaDolby/configs/vendor.dolby.hardware.dms@2.0-service.xml
-
 # Configs
 PRODUCT_COPY_FILES += \
     hardware/motorolaDolby/configs/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
