@@ -6,13 +6,13 @@ Getting Started
 Clone the repository :-
 
 ```bash
-git clone https://github.com/userariii/hardware_motorolaDolby.git hardware/motorolaDolby
+git clone -b v1.1-dynamic https://github.com/userariii/hardware_Motorola_Dolby.git hardware/Motorola/Dolby
 ```
 
 Patches required on device tree side :-
 
 ```bash
-dummy txt
+https://github.com/PixelExperience-Devices/device_nokia_sdm660-common/commit/71f4263651dbd56b5a2685fa01925986b652b4d6
 ```
 
 To support the Dolby media codecs, include this line on your device tree :-
@@ -24,5 +24,5 @@ To support the Dolby media codecs, include this line on your device tree :-
 To build, inherit the dolby config by adding this in your device's makefile :-
 
 ```bash
-$(call inherit-product, hardware/motorolaDolby/dolby-setup.mk)
+$(call inherit-product, hardware/Motorola/Dolby/dolby-setup.mk)
 ```
